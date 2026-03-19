@@ -1,16 +1,63 @@
-# React + Vite
+🧠 Memory Card Game (React)
+A fun and interactive Memory Card Matching Game built using React.js. The goal of the game is to match all the pairs of cards by remembering their positions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+(Add your deployed link here if available)
 
-Currently, two official plugins are available:
+Example: https://your-project-link.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Features
+🃏 Flip cards animation
+🎮 Match two cards logic
+🔄 Restart game functionality
+⏱️ Tracks moves or attempts
+📱 Responsive design
+⚡ Fast UI using React
+🛠️ Built With
+React.js
+JavaScript
+CSS
+Vite / Create React App (whichever you used)
+📂 Project Structure
+memory-card-game
+│
+├── public
+├── src
+│   ├── components
+│   │   ├── Card.jsx
+│   │   ├── GameBoard.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.js
+│
+├── package.json
+└── README.md
+⚙️ Installation & Setup
+1️⃣ Clone the repository
 
-## React Compiler
+git clone https://github.com/your-username/memory-card-game.git
+2️⃣ Go to project folder
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+cd memory-card-game
+3️⃣ Install dependencies
 
-## Expanding the ESLint configuration
+npm install
+4️⃣ Run the project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run dev
+🎯 How to Play
+Click on any card to flip it.
+Select another card to find its pair.
+If both cards match, they stay open.
+If not, they flip back.
+Match all cards to win the game.
+📸 Screenshots
+(Add game screenshots here)
+
+👩‍💻 Author
+Khushboo Singh
+
+GitHub:https://github.com/Khushboo-Singh-22
+LinkedIn:www.linkedin.com/in/khushboo-s-singh
+⭐ Support
+If you like this project, please give it a ⭐ on GitHub!
